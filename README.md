@@ -1,0 +1,3 @@
+# Zoneminder
+
+show zoneminder
