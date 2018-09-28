@@ -11,9 +11,9 @@ rtspUrl - IPcamera rtsp url
 */
 
 //host = 192.168.1.104 고정
-//port = ?????? 고정??????
-//cameraName = containername    입력
-//rtspUrl = admin:dns3438@192.168.1.107:88/videoMain    입력
+//port = 컨테이너 포트
+//cameraName = containername
+//rtspUrl = 예시 rtsp://192.168.1.106:8555/unicast
 
 //Add monitors 변수
 //HOST- 고정 , PORT- ??, NAME- Test1,2,3~, RTSPURL- 고정
