@@ -19,5 +19,14 @@ Zoneminder 1.30.4
 
 To access the Zoneminder gui: http://IP:8080/zm
 
+## Test API
+![아키텍쳐](testapi.PNG)</br>
+##### ■ Add Cameras in Node.JS
+Use Shinobi.ShinobiSetup Function
+
+##### ■ Delete Cameras in Node.JS
+Use Shinobi.ShinobiDeleteMonitor Function
+
+
 ## link
 https://hub.docker.com/r/dlandon/zoneminder/
