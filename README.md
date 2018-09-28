@@ -3,9 +3,9 @@
 Zoneminder 1.30.4
 
 ## To use docker hub :
-docker pull dlandon/zoneminder
+<code>docker pull dlandon/zoneminder</code>
 
-
+<code>
 docker run -d --name="Zoneminder" \
 --net="bridge" \
 --privileged="true" \
@@ -17,6 +17,7 @@ docker run -d --name="Zoneminder" \
 -v "/mnt/cache/appdata/Zoneminder":"/config":rw \
 -v "/mnt/cache/appdata/Zoneminder/data":"/var/cache/zoneminder":rw \
 zoneminder
+</code>
 
 To access the Zoneminder gui: http://IP:8080/zm
 
