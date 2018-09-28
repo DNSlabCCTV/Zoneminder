@@ -1,6 +1,8 @@
 # Zoneminder
 
 Zoneminder 1.30.4
+
+## To use docker hub :
 docker pull dlandon/zoneminder
 
 
@@ -17,3 +19,6 @@ docker run -d --name="Zoneminder" \
 zoneminder
 
 To access the Zoneminder gui: http://IP:8080/zm
+
+
+https://hub.docker.com/r/dlandon/zoneminder/
