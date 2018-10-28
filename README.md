@@ -15,7 +15,7 @@ Zoneminder 1.30.4
 <code>-e PGID="100" \ </code></br>
 <code>-v "/mnt/cache/appdata/Zoneminder":"/config":rw \ </code></br>
 <code>-v "/mnt/cache/appdata/Zoneminder/data":"/var/cache/zoneminder":rw \ </code></br>
-<code>zoneminder</code></br>
+<code>dlandon/zoneminder</code></br>
 
 To access the Zoneminder gui: http://IP:8080/zm
 
