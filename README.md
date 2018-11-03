@@ -1,12 +1,15 @@
 # Zoneminder
 
-Zoneminder 1.30.4
-
 ## To use docker hub :
-### Zoneminder 1.32.2
+### Docker Container Set up Zoneminder 1.32.2
 <code>docker pull dlandon/zoneminder</code>
 
-### Zoneminder 1.30.4
+### Docker Container Set up Zoneminder 1.30.4
+<code>unzip zoneminder-51fa254a84eec93d408d4f5070eb67edc39100c3.zip</code></br>
+<code>cd zoneminder-51fa254a84eec93d408d4f5070eb67edc39100c3</code></br>
+<code>docker build -t zoneminder . </code></br>
+<code>docker run -d -p 8080:80 zoneminder</code></br>
+
 
 <code>docker run -d --name="Zoneminder" \ </code></br>
 <code>--net="bridge" \ </code></br>
