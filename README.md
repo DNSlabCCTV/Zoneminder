@@ -10,7 +10,7 @@
 <code>docker build -t zoneminder . </code></br>
 <code>docker run -d -p 8080:80 zoneminder</code></br>
 
-
+### Docker run command
 <code>docker run -d --name="Zoneminder" \ </code></br>
 <code>--net="bridge" \ </code></br>
 <code>--privileged="true" \ </code></br>
