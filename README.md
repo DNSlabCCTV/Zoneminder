@@ -5,6 +5,8 @@
 <code>docker pull dlandon/zoneminder</code>
 
 ### Docker Container Set up Zoneminder 1.30.4
+<code>git clone https://github.com/DNSlabCCTV/Zoneminder</code></br>
+<code>cd Zoneminder</code></br>
 <code>unzip zoneminder-51fa254a84eec93d408d4f5070eb67edc39100c3.zip</code></br>
 <code>cd zoneminder-51fa254a84eec93d408d4f5070eb67edc39100c3</code></br>
 <code>docker build -t zoneminder . </code></br>
